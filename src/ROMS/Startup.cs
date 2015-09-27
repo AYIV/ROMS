@@ -13,6 +13,8 @@ namespace ROMS
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
