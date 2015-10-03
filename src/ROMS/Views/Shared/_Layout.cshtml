@@ -1,12 +1,13 @@
 ﻿<!DOCTYPE html>
 
-<html ng-app>
+<html ng-app="main-app">
 <head>
     <script src="~/lib/angular/angular.min.js"></script>
+    <script src="~/lib/app-custom-scripts/app.js"></script>
 
     <title>@ViewBag.Title</title>
 </head>
-<body>
+<body ng-controller="mainController">
     @RenderBody()
 </body>
 </html>
